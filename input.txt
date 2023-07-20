@@ -1,0 +1,2 @@
+# Exercise 4 (read and write):
+Write a Python program that reads the content of a file called "input.txt" and writes the reversed content to a new file called "reversed.txt".
