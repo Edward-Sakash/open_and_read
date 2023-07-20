@@ -38,3 +38,43 @@ data.json:
 Hint:
 research about json
 research the json module
+
+# Bonus 2 (Slicing)
+Given the following list, use slicing to extract the specified portions:
+```python
+# Exercise list
+exercise_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+1. Extract the first three elements of the list.
+2. Extract the elements from index 4 to index 7 (inclusive).
+3. Extract every second element from the list.
+4. Extract the last four elements of the list.
+5. Reverse the list using slicing.
+
+
+# Bonus 3 (Unpacking)
+Given the following tuple, use unpacking to assign the elements to individual variables:
+Assign each element to separate variables `a`, `b`, `c`, `d`, and `e`.
+# Print the variables
+print(a)  # Output: 10
+print(b)  # Output: 20
+print(c)  # Output: 30
+print(d)  # Output: 40
+print(e)  # Output: 50
+
+# Bonus 4 (Nested Unpacking)
+Given the following nested list, use unpacking to assign the elements to individual variables.
+
+# Exercise nested list
+nested_list = [1, 2, [3, 4, 5], 6, [7, 8], 9, 10]
+1. Assign the first element to variable `a`, the second element to variable `b`, and the last element to variable `c`.
+2. Assign the first three elements inside the inner list to variables `x`, `y`, and `z`.
+# 1. Assign the first element to variable a, the second element to variable b, and the last element to variable c.
+# 2. Assign the first three elements inside the inner list to variables x, y, and z.
+# Print the variables
+print("a:", a)  # Output: 1
+print("b:", b)  # Output: 2
+print("c:", c)  # Output: 10
+print("x:", x)  # Output: 3
+print("y:", y)  # Output: 4
+print("z:", z)  # Output: 5
